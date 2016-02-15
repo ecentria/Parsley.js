@@ -308,6 +308,10 @@
         , customMessages = options.messages
         , key;
 
+      // Backported from v2.*
+      // Copy prototype's validators:
+      this.validators = $.extend({}, this.validators);
+
       for ( key in customValidators ) {
         this.addValidator(key, customValidators[ key ]);
       }
