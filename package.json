@@ -1,0 +1,34 @@
+{
+  "name": "parsleyjs",
+  "version": "1.2.4",
+  "description": "Validate your forms, frontend, without writing a single line of javascript!",
+  "main": "parsley.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecentria/Parsley.js.git"
+  },
+  "keywords": [
+    "parsley",
+    "form",
+    "validation",
+    "html5",
+    "polyfill",
+    "es6"
+  ],
+  "author": {
+    "name": "Guillaume Potier",
+    "email": "guillaume@wisembly.com",
+    "url": "http://guillaumepotier.com/"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecentria/Parsley.js/issues"
+  },
+  "homepage": "https://github.com/ecentria/Parsley.js#readme"
+}
